@@ -8,8 +8,8 @@ describe('Merge', function() {
 });
 
 describe('Merge Sort', function() {
-  it('should sort two arrays of size 1', function() {
-     expect(mergeSort.merge([2],[1])).toEqual([1,2]);
+  it('should sort an array', function() {
+     expect(mergeSort.mergeSort([2,1])).toEqual([1,2]);
   });
 });
 
